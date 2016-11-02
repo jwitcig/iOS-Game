@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772E40000331F5AAB0B7243D /* Pods_GameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0817856356D7AC48BEF7F533 /* Pods_GameTests.framework */; };
 		8B26660E1DC9BCC8004B953C /* Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2666041DC9BCC8004B953C /* Game.framework */; };
 		8B2666131DC9BCC8004B953C /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2666121DC9BCC8004B953C /* GameTests.swift */; };
 		8B2666151DC9BCC8004B953C /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2666071DC9BCC8004B953C /* Game.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB05F83DA6F93EA5E185E298 /* Pods_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A76C5B417D80756D2E57E47 /* Pods_Game.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0817856356D7AC48BEF7F533 /* Pods_GameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9612D754EDAB13FBD5ACAA /* Pods-GameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameTests/Pods-GameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A76C5B417D80756D2E57E47 /* Pods_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CCAFCAA29559452D67C297 /* Pods-Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game.release.xcconfig"; path = "Pods/Target Support Files/Pods-Game/Pods-Game.release.xcconfig"; sourceTree = "<group>"; };
 		8B2666041DC9BCC8004B953C /* Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2666071DC9BCC8004B953C /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		8B2666081DC9BCC8004B953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B26660D1DC9BCC8004B953C /* GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2666121DC9BCC8004B953C /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		8B2666141DC9BCC8004B953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936BC1C8B1C0D31147E998FF /* Pods-Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Game/Pods-Game.debug.xcconfig"; sourceTree = "<group>"; };
+		EA7A22A6FFD48C57C3D879B2 /* Pods-GameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameTests/Pods-GameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB05F83DA6F93EA5E185E298 /* Pods_Game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B26660E1DC9BCC8004B953C /* Game.framework in Frameworks */,
+				772E40000331F5AAB0B7243D /* Pods_GameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 				8B2666061DC9BCC8004B953C /* Game */,
 				8B2666111DC9BCC8004B953C /* GameTests */,
 				8B2666051DC9BCC8004B953C /* Products */,
+				E3E0D239BF7232AC49ED50A2 /* Pods */,
+				D445E205F168E8E314F6A040 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +98,26 @@
 			path = GameTests;
 			sourceTree = "<group>";
 		};
+		D445E205F168E8E314F6A040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A76C5B417D80756D2E57E47 /* Pods_Game.framework */,
+				0817856356D7AC48BEF7F533 /* Pods_GameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E0D239BF7232AC49ED50A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				936BC1C8B1C0D31147E998FF /* Pods-Game.debug.xcconfig */,
+				79CCAFCAA29559452D67C297 /* Pods-Game.release.xcconfig */,
+				0D9612D754EDAB13FBD5ACAA /* Pods-GameTests.debug.xcconfig */,
+				EA7A22A6FFD48C57C3D879B2 /* Pods-GameTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B2666181DC9BCC8004B953C /* Build configuration list for PBXNativeTarget "Game" */;
 			buildPhases = (
+				744698E7FB2041EFA84B2066 /* [CP] Check Pods Manifest.lock */,
 				8B2665FF1DC9BCC8004B953C /* Sources */,
 				8B2666001DC9BCC8004B953C /* Frameworks */,
 				8B2666011DC9BCC8004B953C /* Headers */,
 				8B2666021DC9BCC8004B953C /* Resources */,
+				BC0B9AC9A19B026F875EC3D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B26661B1DC9BCC8004B953C /* Build configuration list for PBXNativeTarget "GameTests" */;
 			buildPhases = (
+				E2FF0F839E3E49328D415E0A /* [CP] Check Pods Manifest.lock */,
 				8B2666091DC9BCC8004B953C /* Sources */,
 				8B26660A1DC9BCC8004B953C /* Frameworks */,
 				8B26660B1DC9BCC8004B953C /* Resources */,
+				99A12BF0886127592B4FA7AF /* [CP] Embed Pods Frameworks */,
+				EB75BB22AB69A1BE1AE2D79F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +229,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		744698E7FB2041EFA84B2066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99A12BF0886127592B4FA7AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameTests/Pods-GameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0B9AC9A19B026F875EC3D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Game/Pods-Game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FF0F839E3E49328D415E0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB75BB22AB69A1BE1AE2D79F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameTests/Pods-GameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B2665FF1DC9BCC8004B953C /* Sources */ = {
@@ -321,6 +436,7 @@
 		};
 		8B2666191DC9BCC8004B953C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936BC1C8B1C0D31147E998FF /* Pods-Game.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -340,6 +456,7 @@
 		};
 		8B26661A1DC9BCC8004B953C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CCAFCAA29559452D67C297 /* Pods-Game.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -359,6 +476,7 @@
 		};
 		8B26661C1DC9BCC8004B953C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9612D754EDAB13FBD5ACAA /* Pods-GameTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 349WFX4WJR;
 				INFOPLIST_FILE = GameTests/Info.plist;
@@ -371,6 +489,7 @@
 		};
 		8B26661D1DC9BCC8004B953C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7A22A6FFD48C57C3D879B2 /* Pods-GameTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 349WFX4WJR;
 				INFOPLIST_FILE = GameTests/Info.plist;

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftTools (1.1.5)
+
+DEPENDENCIES:
+  - SwiftTools (from `~/Documents/projects/SwiftTools`)
+
+EXTERNAL SOURCES:
+  SwiftTools:
+    :path: "~/Documents/projects/SwiftTools"
+
+SPEC CHECKSUMS:
+  SwiftTools: e60f024d20475bed6af3e44bbfda2892cfc6d9c3
+
+PODFILE CHECKSUM: af048ba6374dcc7c2ef140300f572890385f5871
+
+COCOAPODS: 1.1.1

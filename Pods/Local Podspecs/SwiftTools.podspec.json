@@ -1,0 +1,23 @@
+{
+  "name": "SwiftTools",
+  "version": "1.1.5",
+  "summary": "Tools for Swift development.",
+  "homepage": "https://github.com/jwitcig/SwiftTools",
+  "license": "Code is MIT.",
+  "authors": {
+    "Jonah": "jwitcig@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jwitcig/SwiftTools.git",
+    "tag": "1.1.5"
+  },
+  "social_media_url": "https://twitter.com/jonahwitcig",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "SwiftTools/Classes/**/*",
+  "resources": "Pod/Assets/*",
+  "frameworks": "UIKit",
+  "module_name": "SwiftTools"
+}
