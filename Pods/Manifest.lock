@@ -1,16 +1,21 @@
 PODS:
-  - SwiftTools (1.1.5)
+  - SwiftTools (1.1.10)
 
 DEPENDENCIES:
-  - SwiftTools (from `~/Documents/projects/SwiftTools`)
+  - SwiftTools (from `https://github.com/jwitcig/SwiftTools`)
 
 EXTERNAL SOURCES:
   SwiftTools:
-    :path: "~/Documents/projects/SwiftTools"
+    :git: https://github.com/jwitcig/SwiftTools
+
+CHECKOUT OPTIONS:
+  SwiftTools:
+    :commit: b36f1576f9733244dc27bb5f9c5b7793ad8c9fcb
+    :git: https://github.com/jwitcig/SwiftTools
 
 SPEC CHECKSUMS:
-  SwiftTools: e60f024d20475bed6af3e44bbfda2892cfc6d9c3
+  SwiftTools: de3df762bfd6a9fd1137594479f4a076a9c5c8f3
 
-PODFILE CHECKSUM: af048ba6374dcc7c2ef140300f572890385f5871
+PODFILE CHECKSUM: 63e2ddade36c77efcb3ad16af5f9512aa09cd5a0
 
 COCOAPODS: 1.1.1
