@@ -92,4 +92,8 @@ public struct InitialData<T>: StringDictionaryRepresentable, Sessioned {
     public static func create(dictionary: [String: String]) -> InitialData<SessionType>? {
         return nil
     }
+    
+    public func typed<U>(as: U.Type) -> InitialData<U> {
+        return InitialData<U>(dictionary: dictionary)
+    }
 }
