@@ -18,6 +18,8 @@ public protocol GameScene {
 }
 
 @available(iOS 10.0, *)
-public protocol MessageSessioned {
-    var messageSession: MSSession { get }
+public protocol Messageable {
+    var messageSession: MSSession? { get }
+    
+//    func generateMessage() -> MSMessage
 }

@@ -21,7 +21,3 @@ public protocol Game: class {
     
     func finish()
 }
-
-public protocol SessionedGame: Game, GameTyped {
-    var gameCycle: GameCycle<GameType> { get }
-}

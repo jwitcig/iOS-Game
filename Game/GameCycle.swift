@@ -10,15 +10,15 @@ import Foundation
 
 import SwiftTools
 
-public class GameCycle<T: Game>: LifeCycle, GameTyped {
-    public typealias GameType = T
-    public typealias Session = GameSession<GameType>
+@available(iOS 10.0, *)
+public class SessionCycle<T>: LifeCycle, Sessioned {
+    public typealias SessionType = T
     
-    public let generateSession: ()->Session
+    public let generateSession: ()->Session<T>
     
     public init(started: (() -> Void)?,
          finished: (() -> Void)?,
-         generateSession: @escaping ()->Session) {
+         generateSession: @escaping ()->Session<T>) {
         self.generateSession = generateSession
         super.init(started: started, finished: finished)
     }
@@ -28,7 +28,7 @@ public class GameCycle<T: Game>: LifeCycle, GameTyped {
         finish(session: generateSession())
     }
     
-    public func finish(session: Session) {
+    public func finish(session: Session<T>) {
         // intended to be overridden
     }
 }

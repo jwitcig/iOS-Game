@@ -11,36 +11,93 @@ import Messages
 
 import SwiftTools
 
-public class GameSession<T: Game>: GameTyped, DictionaryStoring {
-    public typealias GameType = T
-
-    public var dictionary: [String: String]
-    public let gameData: GameData<GameType>
-
-    public required init() {
-        fatalError()
-    }
+public protocol DictionaryRepresentable {
+    associatedtype Key: Hashable
+    associatedtype Value
     
-    public init(sessionData: [String: String], gameData: GameData<GameType>) {
-        self.dictionary = sessionData
-        self.gameData = gameData
-    }
+    var dictionary: [Key: Value] { get }
 }
 
-public extension GameSession {
-    public var gameOver: Bool { return dictionary["gameOver"]!.bool! }
+public protocol StringDictionaryStorable {
+    var dictionary: [String: String] { get set }
+}
+
+public protocol StringDictionaryRepresentable {
+    var dictionary: [String: String] { get }
+    
+    init?(dictionary: [String: String])
+}
+
+public extension StringDictionaryRepresentable {
+    public init?(dictionary: [String: String]) {
+        return nil
+    }
 }
 
 @available(iOS 10.0, *)
-public class iMSGGameSession<T: Game>: GameSession<T>, MessageSessioned {
-    public let messageSession: MSSession
+public protocol Sessionable: StringDictionaryRepresentable {
+    associatedtype SessionType
     
-    public init(sessionData: [String: String], gameData: GameData<T>, messageSession: MSSession?) {
-        self.messageSession = messageSession ?? MSSession()
-        super.init(sessionData: sessionData, gameData: gameData)
+    var instance: InstanceData<SessionType> { get }
+    var initial: InitialData<SessionType> { get }
+}
+
+@available(iOS 10.0, *)
+public extension Sessionable {
+    var dictionary: [String: String] {
+        return instance.dictionary.merged(initial.dictionary)
+    }
+}
+
+@available(iOS 10.0, *)
+public protocol Sessioned {
+    associatedtype SessionType
+}
+
+@available(iOS 10.0, *)
+public struct Session<T>: Sessionable, Messageable {
+    public typealias SessionType = T
+    
+    public let instance: InstanceData<SessionType>
+    public let initial: InitialData<SessionType>
+    
+    public let messageSession: MSSession?
+    
+    public init(instance: InstanceData<SessionType>, initial: InitialData<SessionType>, messageSession: MSSession?) {
+        self.instance = instance
+        self.initial = initial
+        self.messageSession = messageSession
     }
     
-    public required init() {
-        fatalError("init() has not been implemented")
+    public init?(dictionary: [String: String]) {
+        guard let instance = InstanceData<SessionType>(dictionary: dictionary) else { return nil }
+        guard let initial = InitialData<SessionType>(dictionary: dictionary) else { return nil }
+        
+        self.instance = instance
+        self.initial = initial
+    
+        self.messageSession = nil
+    }
+}
+
+@available(iOS 10.0, *)
+public struct InstanceData<T>: StringDictionaryRepresentable, Sessioned {
+    public typealias SessionType = T
+    
+    public let dictionary: [String: String]
+    
+    public init?(dictionary: [String: String]) {
+        return nil
+    }
+}
+
+@available(iOS 10.0, *)
+public struct InitialData<T>: StringDictionaryRepresentable, Sessioned {
+    public typealias SessionType = T
+    
+    public let dictionary: [String: String]
+    
+    public init?(dictionary: [String: String]) {
+        return nil
     }
 }
