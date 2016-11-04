@@ -45,7 +45,6 @@
 		8B2666241DC9BEBD004B953C /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		8B2666281DC9C156004B953C /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		8B26662A1DC9C527004B953C /* GameCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCycle.swift; sourceTree = "<group>"; };
-		8BACBAE91DCC37D900281555 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../../../Desktop/MyPlayground.playground; sourceTree = "<group>"; };
 		936BC1C8B1C0D31147E998FF /* Pods-Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Game/Pods-Game.debug.xcconfig"; sourceTree = "<group>"; };
 		EA7A22A6FFD48C57C3D879B2 /* Pods-GameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameTests/Pods-GameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +96,6 @@
 				8B2666071DC9BCC8004B953C /* Game.h */,
 				8B26661E1DC9BD6A004B953C /* Game.swift */,
 				8B2666281DC9C156004B953C /* Session.swift */,
-				8BACBAE91DCC37D900281555 /* MyPlayground.playground */,
 				8B2666241DC9BEBD004B953C /* Protocols.swift */,
 				8B2666201DC9BDB9004B953C /* Enums.swift */,
 				8B26662A1DC9C527004B953C /* GameCycle.swift */,

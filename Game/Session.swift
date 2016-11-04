@@ -24,14 +24,6 @@ public protocol StringDictionaryStorable {
 
 public protocol StringDictionaryRepresentable {
     var dictionary: [String: String] { get }
-    
-    init?(dictionary: [String: String])
-}
-
-public extension StringDictionaryRepresentable {
-    public init?(dictionary: [String: String]) {
-        return nil
-    }
 }
 
 @available(iOS 10.0, *)
@@ -70,8 +62,8 @@ public struct Session<T>: Sessionable, Messageable {
     }
     
     public init?(dictionary: [String: String]) {
-        guard let instance = InstanceData<SessionType>(dictionary: dictionary) else { return nil }
-        guard let initial = InitialData<SessionType>(dictionary: dictionary) else { return nil }
+        guard let instance = InstanceData<SessionType>.create(dictionary: dictionary) else { return nil }
+        guard let initial = InitialData<SessionType>.create(dictionary: dictionary) else { return nil }
         
         self.instance = instance
         self.initial = initial
@@ -86,7 +78,7 @@ public struct InstanceData<T>: StringDictionaryRepresentable, Sessioned {
     
     public let dictionary: [String: String]
     
-    public init?(dictionary: [String: String]) {
+    public static func create(dictionary: [String: String]) -> InstanceData<SessionType>? {
         return nil
     }
 }
@@ -97,7 +89,7 @@ public struct InitialData<T>: StringDictionaryRepresentable, Sessioned {
     
     public let dictionary: [String: String]
     
-    public init?(dictionary: [String: String]) {
+    public static func create(dictionary: [String: String]) -> InitialData<SessionType>? {
         return nil
     }
 }

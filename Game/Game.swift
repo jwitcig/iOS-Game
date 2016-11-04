@@ -16,7 +16,7 @@ public protocol Game: class {
     var padding: Padding? { get }
     
     var lifeCycle: LifeCycle { get }
-    
+        
     func start()
     
     func finish()

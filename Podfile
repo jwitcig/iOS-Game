@@ -10,6 +10,7 @@ target 'Game' do
 
   # Pods for Game
 
+  pod 'iMessageTools', :path => "~/Documents/projects/iMessageTools"
   pod 'SwiftTools', :git => "https://github.com/jwitcig/SwiftTools"
 
   post_install do |installer|

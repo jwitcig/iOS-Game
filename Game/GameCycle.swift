@@ -14,21 +14,12 @@ import SwiftTools
 public class SessionCycle<T>: LifeCycle, Sessioned {
     public typealias SessionType = T
     
-    public let generateSession: ()->Session<T>
-    
     public init(started: (() -> Void)?,
-         finished: (() -> Void)?,
-         generateSession: @escaping ()->Session<T>) {
-        self.generateSession = generateSession
-        super.init(started: started, finished: finished)
-    }
-    
-    public override func finish() {
-        super.finish()
-        finish(session: generateSession())
-    }
-    
-    public func finish(session: Session<T>) {
-        // intended to be overridden
+               finished: @escaping ((Session<T>) -> Void),
+        generateSession: @escaping ()->Session<T>) {
+       
+        super.init(started: started, finished: {
+            finished(generateSession())
+        })
     }
 }

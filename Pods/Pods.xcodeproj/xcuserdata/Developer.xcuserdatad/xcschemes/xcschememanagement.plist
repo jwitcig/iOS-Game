@@ -19,20 +19,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>iMessageTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>47AED2900679FF17FA6A39C3EBD4B443</key>
+		<key>0A35EF93FFEDFD9F9C50D4758E8589C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B746F413325513F70AE9ED55286B0FD</key>
+		<key>2D40F54953B144E70E0350F552B9C55E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAF64EFB8A4A4272018DD1F16FDB4404</key>
+		<key>78F7223874FF6C00BC55BE36B8896470</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95A18ED73ACC4F6EFE0BD41EC4539D3F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
