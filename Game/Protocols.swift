@@ -13,6 +13,13 @@ public protocol GameTyped {
     associatedtype GameType: Game
 }
 
-public protocol GameScene {
+public protocol GameScene: SessionTyped {
     var game: Game! { get set }
+    
+    init(initial: Session.InitialData?, previousSession: Session?, delegate: GameCycleDelegate)
+}
+
+public protocol GameCycleDelegate {
+    func started(game: Game)
+    func finished<S>(session: S) where S: SessionType & StringDictionaryRepresentable
 }

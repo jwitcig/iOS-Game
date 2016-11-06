@@ -8,6 +8,7 @@
 
 import Foundation
 import Messages
+import SpriteKit
 
 import SwiftTools
 
@@ -18,35 +19,38 @@ public protocol DictionaryRepresentable {
     var dictionary: [Key: Value] { get }
 }
 
-public protocol StringDictionaryStorable {
-    var dictionary: [String: String] { get set }
-}
-
 public protocol StringDictionaryRepresentable {
     var dictionary: [String: String] { get }
 }
 
-public protocol SessionConstraint {
-    associatedtype Session: SessionType
-}
-
 public protocol SessionType {
-    associatedtype ConstraintType
+    associatedtype Key: Hashable
+    associatedtype Value
+    
     associatedtype InitialData: InitialDataType
     associatedtype InstanceData: InstanceDataType
     
     var initial: InitialData { get }
     var instance: InstanceData { get }
+    
+    init?(dictionary: [Key : Value])
+}
+
+public protocol SessionTyped {
+    associatedtype Session: SessionType
 }
 
 public protocol SessionDataType {
-    associatedtype ConstraintType
+    associatedtype Constraint: TypeConstraint
 }
+
+public protocol TypeConstraint { }
+
 
 public protocol InstanceDataType: SessionDataType { }
 public protocol InitialDataType: SessionDataType { }
 
 @available(iOS 10.0, *)
-public protocol Sessioned {
-    associatedtype SessionType
+public protocol SessionSpecific {
+    associatedtype SessionConstraint: SessionType
 }

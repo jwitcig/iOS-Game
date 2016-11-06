@@ -9,7 +9,7 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   iMessageTools:
-    :path: "~/Documents/projects/iMessageTools"
+    :path: ~/Documents/projects/iMessageTools
   SwiftTools:
     :git: https://github.com/jwitcig/SwiftTools
 

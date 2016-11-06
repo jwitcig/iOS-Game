@@ -8,9 +8,10 @@
 
 import Foundation
 
+import SpriteKit
 import SwiftTools
 
-public protocol Game: class {
+public protocol Game: class {    
     static var GameName: String { get }
     
     var padding: Padding? { get }
@@ -20,4 +21,8 @@ public protocol Game: class {
     func start()
     
     func finish()
+}
+
+public protocol SingleScene {
+    associatedtype SceneType: SKScene
 }

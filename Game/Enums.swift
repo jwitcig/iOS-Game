@@ -14,7 +14,7 @@ public enum GameAction: String {
 }
 
 public enum Team {
-    public enum OneOnOne {
+    public enum OneOnOne: String {
         case you, them
     }
     public enum Multi {
