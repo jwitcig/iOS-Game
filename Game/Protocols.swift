@@ -16,10 +16,3 @@ public protocol GameTyped {
 public protocol GameScene {
     var game: Game! { get set }
 }
-
-@available(iOS 10.0, *)
-public protocol Messageable {
-    var messageSession: MSSession? { get }
-    
-//    func generateMessage() -> MSMessage
-}

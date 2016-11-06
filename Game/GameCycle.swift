@@ -11,12 +11,10 @@ import Foundation
 import SwiftTools
 
 @available(iOS 10.0, *)
-public class SessionCycle<T>: LifeCycle, Sessioned {
-    public typealias SessionType = T
-    
+public class SessionCycle<S: SessionType>: LifeCycle {
     public init(started: (() -> Void)?,
-               finished: @escaping ((Session<T>) -> Void),
-        generateSession: @escaping ()->Session<T>) {
+               finished: @escaping (S) -> Void,
+        generateSession: @escaping () -> S) {
        
         super.init(started: started, finished: {
             finished(generateSession())

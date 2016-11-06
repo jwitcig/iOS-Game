@@ -23,7 +23,7 @@ public enum Team {
 }
 
 @available(iOS 10.0, *)
-public enum GameBegin<T: Game, Session: Sessionable> {
+public enum GameBegin<T: Game, Session: SessionType> {
     case new(gameType: T.Type)
     case continued(session: Session)
 }
