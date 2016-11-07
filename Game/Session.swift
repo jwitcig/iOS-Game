@@ -30,6 +30,8 @@ public protocol SessionType {
     associatedtype InitialData: InitialDataType
     associatedtype InstanceData: InstanceDataType
     
+    var ended: Bool { get }
+    
     var initial: InitialData { get }
     var instance: InstanceData { get }
     
