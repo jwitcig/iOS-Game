@@ -7,123 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D888993D978846D493D0452466D5B35 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C5E5A781B8F0695D0F34F84CEC98D /* Structs.swift */; };
-		12859B268E540181E5AB53CFAD597474 /* iMessageTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAEF28FA597708E9F14AB5D6738134E /* iMessageTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A7B6F1F1A168BBB000C8193498CAD58 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6327274EBD4D123E525EEF2AAA8BB8 /* Interpreter.swift */; };
-		2D8161669475477E2872594F07E2B14A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
-		2F9019466AE8C19529685D0B3ED2640C /* iMessageTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D2BB0C63DB9CCD87198A52AA0A0DC5 /* iMessageTools-dummy.m */; };
-		2FBAA65EA7BF842A24CC3EA0F224D179 /* CoreData-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505327919D8E824E6CB7D5C6140E8CB /* CoreData-Extensions.swift */; };
-		302102C2C91117E27D4546C63CAA6CB2 /* SwiftTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C22F45F716E88D2A6A0528B6290213 /* SwiftTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3755CF9B0BD81C4D660133F5965BE70E /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735815ACB71F3F73526684220C1AE09C /* LocationHandler.swift */; };
-		416E193B4BD4C1094E80FE42F4DD973C /* SwiftTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C08F8A7590721522F74088FFEE5B143 /* SwiftTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CD4053B5449B487B947908321C8DA22 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703B5134927A33D6AAD9D69474B348A /* Section.swift */; };
-		52EC85FDA718D92145ABC9993A4D76D6 /* SwiftTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A00BD8EE683971F90B75AF24C63D78 /* SwiftTools.framework */; };
-		5381BE76144EE0644B37658E060A8779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7085673E5DEFFA9BECC6E23B965B2B /* UIKit.framework */; };
-		5AA7858C4CE1DFC8B8FF3EE789DD7904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
-		614DD35D71243774D9A945C13FC80B1A /* CloudKit-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C68DFB39D3B63A08DA0D922771B6C8 /* CloudKit-Extensions.swift */; };
-		6AFDB1246C255632FB981793D69C8EB3 /* SwiftTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60427C36637EA09F2B40A6473991A23D /* SwiftTools-dummy.m */; };
-		6B1FE0AE88ED9858E857075B39C9B1C8 /* iMessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFF8440C24D8D09B8C20182A5BC47E6 /* iMessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		834C7C976F33B45CBC3BD39BBE726E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
-		8841B589279BE4EC909361823CB7F655 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CA6A69DFB1A805B6F414B51974A60 /* Info.plist */; };
-		B391C2BB5D1412A2AFDFCE8113C200E9 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 316542033A835FA5A0DDB6C4D6C5F875 /* Info.plist */; };
-		B4131A0C5488CC25EE81C041A0749F2C /* Pods-Game-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E217CE4F9F6B51033F966F2488032A90 /* Pods-Game-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFC60930F2A84FF501FEE173ABA8480B /* Pods-GameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4A870BBBAA6F0D8B0344CF9567069B /* Pods-GameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C33BC7661A16D0CAE9453440C67EBE49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7085673E5DEFFA9BECC6E23B965B2B /* UIKit.framework */; };
-		C90EF735EAF3AE1D5B42FB9FA4659BAB /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706B4DFD05F48C788DF556F4A79FE15 /* Process.swift */; };
-		CE54A05CC4E436E543629DBFDF65D7C3 /* iMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A71E9BE6A19DE00E9273E071C1FB1 /* iMessage.swift */; };
-		D0817FC2A1F305671077859B15F69D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
-		D8D8B61A934E1CAD08EF8497A87A693A /* Pods-GameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CB28FB6499BE18C6FA04FA228A3A6 /* Pods-GameTests-dummy.m */; };
-		F4D3F8D5EEEDD7128F4C9CD0BA394306 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F64DFB6B95FA2BE0FFDF44AED1AD4 /* Extensions.swift */; };
-		FF53257F23A1090AD6C27A776C461E91 /* Pods-Game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176996B80708A6A1B0BCF7D1C0E4D2A7 /* Pods-Game-dummy.m */; };
+		04791E0CAE43F1B9E32F76B1742C618A /* Pods-GameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4A870BBBAA6F0D8B0344CF9567069B /* Pods-GameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		063803EBD599B306C94A275E3A28896F /* CoreData-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505327919D8E824E6CB7D5C6140E8CB /* CoreData-Extensions.swift */; };
+		0ACB50EE1B869878329A2F3E573D205C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
+		109DE10A36EAA455CDCF3C5951B96C5C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CA6A69DFB1A805B6F414B51974A60 /* Info.plist */; };
+		2255787283EE3F2ED0A5D4453B82C174 /* SwiftTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60427C36637EA09F2B40A6473991A23D /* SwiftTools-dummy.m */; };
+		2BB1949B503417D8A0C69626F32D89CC /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703B5134927A33D6AAD9D69474B348A /* Section.swift */; };
+		2C76F817F9B9F4B66D54283C875891B3 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072B78D7A044E5C1C6BCB6A493A5EEEC /* Interpreter.swift */; };
+		43F57172F1A486DDA1F0847643F6310F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 20F1EBFB494E19E5F36BC2F58FA30D3C /* Info.plist */; };
+		4D9F8A28B7E60D3C8FE313BDBC3D8B05 /* iMessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = C32C567724B4830EDE8CE342A799927F /* iMessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DF2915A687A9C8C83918DD39BDE181 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7085673E5DEFFA9BECC6E23B965B2B /* UIKit.framework */; };
+		60FB63FF8F65B19ED59FF2B429DD5102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7085673E5DEFFA9BECC6E23B965B2B /* UIKit.framework */; };
+		6F8BE0D8225A5BCD0BDDAA2B9C85487D /* iMessageTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD55201053B89A14CEAD57A999B0792 /* iMessageTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720C154FB166FC41A02507A24F501E79 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C5E5A781B8F0695D0F34F84CEC98D /* Structs.swift */; };
+		7C4A0402A4810EB34F781FA4BBFB164C /* Pods-Game-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E217CE4F9F6B51033F966F2488032A90 /* Pods-Game-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9566EB942F0687E1FC0EB8729B9E092E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
+		9DF05E5B0C5E3E11EB40729DF5B66560 /* SwiftTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C08F8A7590721522F74088FFEE5B143 /* SwiftTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05C49D08E8167235D2457EFE2C2A1D9 /* iMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48255AD2F10D608D1A2EDB7E46069F4 /* iMessage.swift */; };
+		A14F9CE931418D9241D4CA074ACF2B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
+		ADCCFA91E30791A4633FEEF9B6085FF8 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706B4DFD05F48C788DF556F4A79FE15 /* Process.swift */; };
+		BAABF52E94F3104418EBF992233402CE /* Pods-Game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176996B80708A6A1B0BCF7D1C0E4D2A7 /* Pods-Game-dummy.m */; };
+		C43E23F8F0FAC08D4BEB18DC9E662AAB /* Pods-GameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CB28FB6499BE18C6FA04FA228A3A6 /* Pods-GameTests-dummy.m */; };
+		C76C564941ADE3AFA1C08794F78B7414 /* CloudKit-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C68DFB39D3B63A08DA0D922771B6C8 /* CloudKit-Extensions.swift */; };
+		C9BA0633FAED73F37949B455796763B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */; };
+		D17E2DA535CE040642B36DBB1D6B93B0 /* SwiftTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A00BD8EE683971F90B75AF24C63D78 /* SwiftTools.framework */; };
+		DB19C7E1932C45E2B3478ADC23E497D2 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735815ACB71F3F73526684220C1AE09C /* LocationHandler.swift */; };
+		E016CD3CCDD99BC94336593B69E6D6B2 /* SwiftTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C22F45F716E88D2A6A0528B6290213 /* SwiftTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD35206731D1537334927D9B72A9578 /* iMessageTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F7AEC43EA96526C6444FB3B4BA467 /* iMessageTools-dummy.m */; };
+		FD347F66193C62A6A6C16BAEBE1919CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F64DFB6B95FA2BE0FFDF44AED1AD4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		295F25D390516BE0F9653033539740B0 /* PBXContainerItemProxy */ = {
+		1DD3F1366DA7BA9C6B65E16C946E716A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A35EF93FFEDFD9F9C50D4758E8589C8;
+			remoteGlobalIDString = FB11F2703C74351C426E71F575DE6E4D;
 			remoteInfo = SwiftTools;
 		};
-		2BE8BEDF7FAC34CC16B423A796544E68 /* PBXContainerItemProxy */ = {
+		44B2B45FFC6632B7F187FE0B0B9AAE71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A35EF93FFEDFD9F9C50D4758E8589C8;
+			remoteGlobalIDString = FB11F2703C74351C426E71F575DE6E4D;
 			remoteInfo = SwiftTools;
 		};
-		A682E8457D9A322A964574E31783B593 /* PBXContainerItemProxy */ = {
+		716E3D4CE4AF2A13A84984074EA1897A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 95A18ED73ACC4F6EFE0BD41EC4539D3F;
+			remoteGlobalIDString = E8269DD46FA894A98D0B9A82C45823DF;
 			remoteInfo = iMessageTools;
 		};
-		C2066DCFFA7E9BBC0648EAEB6D0095DE /* PBXContainerItemProxy */ = {
+		BB4901182BF8720FCABE205BBDB915FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 95A18ED73ACC4F6EFE0BD41EC4539D3F;
-			remoteInfo = iMessageTools;
-		};
-		E375C1B296173D8C25EE8A0C6A2F1C0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A35EF93FFEDFD9F9C50D4758E8589C8;
+			remoteGlobalIDString = FB11F2703C74351C426E71F575DE6E4D;
 			remoteInfo = SwiftTools;
+		};
+		C220264AC1E41566FAD9BBD5FD241118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8269DD46FA894A98D0B9A82C45823DF;
+			remoteInfo = iMessageTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01411CBF023C6CFDF64BAF3C93D28FF8 /* SwiftTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftTools.modulemap; sourceTree = "<group>"; };
-		027C5CF90DCFAA46630D67C5BCB89221 /* Pods_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01411CBF023C6CFDF64BAF3C93D28FF8 /* SwiftTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftTools.modulemap; sourceTree = "<group>"; };
+		027C5CF90DCFAA46630D67C5BCB89221 /* Pods_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Game.framework; path = "Pods-Game.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E281D318742A19BA3C56F0DBF9FF9A /* Pods-Game-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Game-resources.sh"; sourceTree = "<group>"; };
 		05E81F78ACE1F7C91AC4BFC24AE6B70A /* Pods-Game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Game-acknowledgements.markdown"; sourceTree = "<group>"; };
-		08C6A8355414961AE05E4DB1B5CA1F8A /* Pods-GameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameTests.modulemap"; sourceTree = "<group>"; };
+		072B78D7A044E5C1C6BCB6A493A5EEEC /* Interpreter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Interpreter.swift; sourceTree = "<group>"; };
+		08C6A8355414961AE05E4DB1B5CA1F8A /* Pods-GameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GameTests.modulemap"; sourceTree = "<group>"; };
 		0C4A870BBBAA6F0D8B0344CF9567069B /* Pods-GameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameTests-umbrella.h"; sourceTree = "<group>"; };
-		0C69B090CB380A76CE3D150887096791 /* iMessageTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iMessageTools.xcconfig; sourceTree = "<group>"; };
 		10A00BD8EE683971F90B75AF24C63D78 /* SwiftTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		176996B80708A6A1B0BCF7D1C0E4D2A7 /* Pods-Game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Game-dummy.m"; sourceTree = "<group>"; };
 		20920736AD138CB7436F59CABF96050C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F1EBFB494E19E5F36BC2F58FA30D3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2706B4DFD05F48C788DF556F4A79FE15 /* Process.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Process.swift; path = SwiftTools/Process.swift; sourceTree = "<group>"; };
 		2A9148813D06BEBE2086F05A20E07C05 /* SwiftTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTools.xcconfig; sourceTree = "<group>"; };
 		2C08F8A7590721522F74088FFEE5B143 /* SwiftTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTools-umbrella.h"; sourceTree = "<group>"; };
-		316542033A835FA5A0DDB6C4D6C5F875 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3029B1910796B9DE7A90E9E323FCC5BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C189BB32156C4862816DD3465322184 /* Pods-GameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4703B5134927A33D6AAD9D69474B348A /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = SwiftTools/Section.swift; sourceTree = "<group>"; };
 		49C22F45F716E88D2A6A0528B6290213 /* SwiftTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftTools.h; path = SwiftTools/SwiftTools.h; sourceTree = "<group>"; };
 		5B7085673E5DEFFA9BECC6E23B965B2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5C881D42E0D4167FF92C8791B6BBD196 /* Pods-GameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E4CB28FB6499BE18C6FA04FA228A3A6 /* Pods-GameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameTests-dummy.m"; sourceTree = "<group>"; };
-		5E6327274EBD4D123E525EEF2AAA8BB8 /* Interpreter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Interpreter.swift; sourceTree = "<group>"; };
 		60427C36637EA09F2B40A6473991A23D /* SwiftTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTools-dummy.m"; sourceTree = "<group>"; };
-		709A71E9BE6A19DE00E9273E071C1FB1 /* iMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iMessage.swift; sourceTree = "<group>"; };
 		735815ACB71F3F73526684220C1AE09C /* LocationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationHandler.swift; path = SwiftTools/LocationHandler.swift; sourceTree = "<group>"; };
-		7AAEF28FA597708E9F14AB5D6738134E /* iMessageTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iMessageTools-umbrella.h"; sourceTree = "<group>"; };
-		7C254F5661987258412680C87CC0BBDF /* SwiftTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C254F5661987258412680C87CC0BBDF /* SwiftTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftTools.framework; path = SwiftTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D7A36A0EC9F78A77B984075BAA70D3 /* Pods-GameTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameTests-frameworks.sh"; sourceTree = "<group>"; };
+		8B7F7AEC43EA96526C6444FB3B4BA467 /* iMessageTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iMessageTools-dummy.m"; sourceTree = "<group>"; };
 		8C45B1AEB214BD51756B0EC79624F55D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F4CA6A69DFB1A805B6F414B51974A60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftTools/Info.plist; sourceTree = "<group>"; };
-		92D2BB0C63DB9CCD87198A52AA0A0DC5 /* iMessageTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iMessageTools-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FD55201053B89A14CEAD57A999B0792 /* iMessageTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iMessageTools-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988096871E7B7F9946FA116ACAC0F08C /* iMessageTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iMessageTools.xcconfig; sourceTree = "<group>"; };
 		988C5E5A781B8F0695D0F34F84CEC98D /* Structs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Structs.swift; path = SwiftTools/Structs.swift; sourceTree = "<group>"; };
-		A1D5B91FCFCD27506CA5A35A78DFEAEF /* iMessageTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iMessageTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F7858381329AE76BA321E7657D22E7 /* iMessageTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iMessageTools-prefix.pch"; sourceTree = "<group>"; };
+		A1D5B91FCFCD27506CA5A35A78DFEAEF /* iMessageTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iMessageTools.framework; path = iMessageTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A505327919D8E824E6CB7D5C6140E8CB /* CoreData-Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoreData-Extensions.swift"; path = "SwiftTools/Extensions/CoreData-Extensions.swift"; sourceTree = "<group>"; };
 		A5FB46B79FEF0DE14B96D204485EA909 /* Pods-GameTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameTests-resources.sh"; sourceTree = "<group>"; };
-		A86C6FCB55F9C71C4988BC188861A933 /* Pods_GameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A09BAF3B54B99921C314CA06691D81 /* iMessageTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iMessageTools-prefix.pch"; sourceTree = "<group>"; };
+		A86C6FCB55F9C71C4988BC188861A933 /* Pods_GameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GameTests.framework; path = "Pods-GameTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA62550955A20A29EEC71ADDECFA7C75 /* Pods-Game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Game-acknowledgements.plist"; sourceTree = "<group>"; };
 		B46CB366BB2551818833E23C7DB67A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B48255AD2F10D608D1A2EDB7E46069F4 /* iMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iMessage.swift; sourceTree = "<group>"; };
 		B51E573ECA9A59D9F57BAB46615CEC92 /* Pods-Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Game.release.xcconfig"; sourceTree = "<group>"; };
-		BA85CADBFFA38A23CB555812FC60FA8D /* iMessageTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iMessageTools.modulemap; sourceTree = "<group>"; };
-		BBFF8440C24D8D09B8C20182A5BC47E6 /* iMessagePack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = iMessagePack.h; sourceTree = "<group>"; };
 		C25F64DFB6B95FA2BE0FFDF44AED1AD4 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SwiftTools/Extensions/Extensions.swift; sourceTree = "<group>"; };
+		C32C567724B4830EDE8CE342A799927F /* iMessagePack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = iMessagePack.h; sourceTree = "<group>"; };
+		C7D2D699604F1B0395F175E357A129D5 /* iMessageTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iMessageTools.modulemap; sourceTree = "<group>"; };
 		D56A7EE9743309B44057E7C6BB9D9325 /* Pods-GameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D94B5C7672E99D4B1C395370B1C491F0 /* Pods-GameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E217CE4F9F6B51033F966F2488032A90 /* Pods-Game-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Game-umbrella.h"; sourceTree = "<group>"; };
-		E7AAE2E84916AFE95ADB49C59F883E2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBB700EE148C0E01D9D321B29E654015 /* Pods-Game.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Game.modulemap"; sourceTree = "<group>"; };
+		EBB700EE148C0E01D9D321B29E654015 /* Pods-Game.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Game.modulemap"; sourceTree = "<group>"; };
 		F1C68DFB39D3B63A08DA0D922771B6C8 /* CloudKit-Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CloudKit-Extensions.swift"; path = "SwiftTools/Extensions/CloudKit-Extensions.swift"; sourceTree = "<group>"; };
 		F68384DEA52D2BF645F5F1AF89D5C1D0 /* Pods-Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Game.debug.xcconfig"; sourceTree = "<group>"; };
 		FA1AD5EA5C5F68829EB1B637CFF2434E /* SwiftTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTools-prefix.pch"; sourceTree = "<group>"; };
@@ -131,38 +131,38 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F653ED6061B8D94EC8F61AFD0364522 /* Frameworks */ = {
+		4E4DAC9991E044230198FCD557A429DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834C7C976F33B45CBC3BD39BBE726E2A /* Foundation.framework in Frameworks */,
-				52EC85FDA718D92145ABC9993A4D76D6 /* SwiftTools.framework in Frameworks */,
-				5381BE76144EE0644B37658E060A8779 /* UIKit.framework in Frameworks */,
+				9566EB942F0687E1FC0EB8729B9E092E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		489AA71FA814F450EBE206336E1C3FF5 /* Frameworks */ = {
+		CF0DD382381E59D1CA7673CE5F319929 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D8161669475477E2872594F07E2B14A /* Foundation.framework in Frameworks */,
+				0ACB50EE1B869878329A2F3E573D205C /* Foundation.framework in Frameworks */,
+				52DF2915A687A9C8C83918DD39BDE181 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		682EBB73569456C3D60E5BADED0D7FD2 /* Frameworks */ = {
+		D357F1C03F038632166D8FFCA243E0BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA7858C4CE1DFC8B8FF3EE789DD7904 /* Foundation.framework in Frameworks */,
-				C33BC7661A16D0CAE9453440C67EBE49 /* UIKit.framework in Frameworks */,
+				C9BA0633FAED73F37949B455796763B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD69AF0D3E735D1B7677815FB8A125F4 /* Frameworks */ = {
+		DB462790200D7D5B38EF4A0313C2B198 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0817FC2A1F305671077859B15F69D25 /* Foundation.framework in Frameworks */,
+				A14F9CE931418D9241D4CA074ACF2B69 /* Foundation.framework in Frameworks */,
+				D17E2DA535CE040642B36DBB1D6B93B0 /* SwiftTools.framework in Frameworks */,
+				60FB63FF8F65B19ED59FF2B429DD5102 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +181,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftTools";
+			sourceTree = "<group>";
+		};
+		088535806F4783B1C10B6B4DF17A15C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DBE2235CD597CC645DAC7B60247C6D2 /* iMessageTools */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2116F3137562A34B5647100091517A41 /* iOS */ = {
@@ -206,18 +214,9 @@
 				49C22F45F716E88D2A6A0528B6290213 /* SwiftTools.h */,
 				013995B32516A7F3E26D703C1A29C048 /* Support Files */,
 			);
+			name = SwiftTools;
 			path = SwiftTools;
 			sourceTree = "<group>";
-		};
-		37129D79828B22713F5B85951B1C6C2D /* iMessageTools */ = {
-			isa = PBXGroup;
-			children = (
-				8690F54FF75FE7A9E0CCDE4F819754F0 /* iMessagePack */,
-				9DD8EB4342D2B884CDADEE41308205E5 /* Support Files */,
-			);
-			name = iMessageTools;
-			path = /Users/developer/Documents/projects/iMessageTools;
-			sourceTree = "<absolute>";
 		};
 		4222BF53F08C987B04D81E1E58BA3868 /* Products */ = {
 			isa = PBXGroup;
@@ -256,11 +255,23 @@
 			path = "Target Support Files/Pods-Game";
 			sourceTree = "<group>";
 		};
+		7567160EC3DA432CBB7CE70C3C23CEC2 /* iMessagePack */ = {
+			isa = PBXGroup;
+			children = (
+				B48255AD2F10D608D1A2EDB7E46069F4 /* iMessage.swift */,
+				C32C567724B4830EDE8CE342A799927F /* iMessagePack.h */,
+				20F1EBFB494E19E5F36BC2F58FA30D3C /* Info.plist */,
+				072B78D7A044E5C1C6BCB6A493A5EEEC /* Interpreter.swift */,
+			);
+			name = iMessagePack;
+			path = iMessagePack;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9C3EC9E96714E1872609312884FF78AE /* Development Pods */,
+				088535806F4783B1C10B6B4DF17A15C1 /* Development Pods */,
 				56C4ED2ABFEFDFD483ADF0B2B6887C7A /* Frameworks */,
 				A2A6E1DB817F5DB2AC8BF7F350D52E87 /* Pods */,
 				4222BF53F08C987B04D81E1E58BA3868 /* Products */,
@@ -268,38 +279,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		8690F54FF75FE7A9E0CCDE4F819754F0 /* iMessagePack */ = {
+		9DBE2235CD597CC645DAC7B60247C6D2 /* iMessageTools */ = {
 			isa = PBXGroup;
 			children = (
-				709A71E9BE6A19DE00E9273E071C1FB1 /* iMessage.swift */,
-				BBFF8440C24D8D09B8C20182A5BC47E6 /* iMessagePack.h */,
-				316542033A835FA5A0DDB6C4D6C5F875 /* Info.plist */,
-				5E6327274EBD4D123E525EEF2AAA8BB8 /* Interpreter.swift */,
+				7567160EC3DA432CBB7CE70C3C23CEC2 /* iMessagePack */,
+				FC376F2CB07A4674C5A1CD81265C0070 /* Support Files */,
 			);
-			path = iMessagePack;
-			sourceTree = "<group>";
-		};
-		9C3EC9E96714E1872609312884FF78AE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				37129D79828B22713F5B85951B1C6C2D /* iMessageTools */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9DD8EB4342D2B884CDADEE41308205E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BA85CADBFFA38A23CB555812FC60FA8D /* iMessageTools.modulemap */,
-				0C69B090CB380A76CE3D150887096791 /* iMessageTools.xcconfig */,
-				92D2BB0C63DB9CCD87198A52AA0A0DC5 /* iMessageTools-dummy.m */,
-				A4F7858381329AE76BA321E7657D22E7 /* iMessageTools-prefix.pch */,
-				7AAEF28FA597708E9F14AB5D6738134E /* iMessageTools-umbrella.h */,
-				E7AAE2E84916AFE95ADB49C59F883E2B /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../iOS-Game/Pods/Target Support Files/iMessageTools";
-			sourceTree = "<group>";
+			name = iMessageTools;
+			path = /Users/Developer/Documents/projects/iMessageTools;
+			sourceTree = "<absolute>";
 		};
 		A2A6E1DB817F5DB2AC8BF7F350D52E87 /* Pods */ = {
 			isa = PBXGroup;
@@ -336,53 +324,123 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FC376F2CB07A4674C5A1CD81265C0070 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D2D699604F1B0395F175E357A129D5 /* iMessageTools.modulemap */,
+				988096871E7B7F9946FA116ACAC0F08C /* iMessageTools.xcconfig */,
+				8B7F7AEC43EA96526C6444FB3B4BA467 /* iMessageTools-dummy.m */,
+				A6A09BAF3B54B99921C314CA06691D81 /* iMessageTools-prefix.pch */,
+				8FD55201053B89A14CEAD57A999B0792 /* iMessageTools-umbrella.h */,
+				3029B1910796B9DE7A90E9E323FCC5BE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../iOS-Game/Pods/Target Support Files/iMessageTools";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36A8D56EC889784FF75330A80154668C /* Headers */ = {
+		14F7E94518CD4BBA11B15EC877BA1008 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC60930F2A84FF501FEE173ABA8480B /* Pods-GameTests-umbrella.h in Headers */,
+				9DF05E5B0C5E3E11EB40729DF5B66560 /* SwiftTools-umbrella.h in Headers */,
+				E016CD3CCDD99BC94336593B69E6D6B2 /* SwiftTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67D17BD14E6FA689E6C40FE1CDC67B73 /* Headers */ = {
+		32AB84AB4A57EF487C6544C7D84ACDE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416E193B4BD4C1094E80FE42F4DD973C /* SwiftTools-umbrella.h in Headers */,
-				302102C2C91117E27D4546C63CAA6CB2 /* SwiftTools.h in Headers */,
+				7C4A0402A4810EB34F781FA4BBFB164C /* Pods-Game-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A45313E6D7F71FBF0E2102C1A50C7457 /* Headers */ = {
+		83AF63090A8218760C5DED1402984D46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4131A0C5488CC25EE81C041A0749F2C /* Pods-Game-umbrella.h in Headers */,
+				04791E0CAE43F1B9E32F76B1742C618A /* Pods-GameTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB48F7F4F1741E49281EA1EFD56719D5 /* Headers */ = {
+		C6207497058FDDF3BE5FB8FEBA6B42B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1FE0AE88ED9858E857075B39C9B1C8 /* iMessagePack.h in Headers */,
-				12859B268E540181E5AB53CFAD597474 /* iMessageTools-umbrella.h in Headers */,
+				4D9F8A28B7E60D3C8FE313BDBC3D8B05 /* iMessagePack.h in Headers */,
+				6F8BE0D8225A5BCD0BDDAA2B9C85487D /* iMessageTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0A35EF93FFEDFD9F9C50D4758E8589C8 /* SwiftTools */ = {
+		0B0D20663242C205D515EBC1D10CA477 /* Pods-GameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 613304C2D72F15806550C5AD078BE013 /* Build configuration list for PBXNativeTarget "SwiftTools" */;
+			buildConfigurationList = 321FC2B365210C0CC5BE04A74463E30A /* Build configuration list for PBXNativeTarget "Pods-GameTests" */;
 			buildPhases = (
-				5FA6DEC4C53B0305521628FE32E248A3 /* Sources */,
-				682EBB73569456C3D60E5BADED0D7FD2 /* Frameworks */,
-				67D17BD14E6FA689E6C40FE1CDC67B73 /* Headers */,
+				F9890C504B88350C88F3BE637366BC9D /* Sources */,
+				4E4DAC9991E044230198FCD557A429DD /* Frameworks */,
+				83AF63090A8218760C5DED1402984D46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26289921DF10208A567D7FE7703930BB /* PBXTargetDependency */,
+				4A62A0A1BCB2283AF216A255917E28C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-GameTests";
+			productName = "Pods-GameTests";
+			productReference = A86C6FCB55F9C71C4988BC188861A933 /* Pods_GameTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA46C87214C39908B2E9E145850197F6 /* Pods-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C3175B8D0CC173D89206BC0CCE1BDE /* Build configuration list for PBXNativeTarget "Pods-Game" */;
+			buildPhases = (
+				8D3E45F405DF4906A8B89FDB1E1FC1E2 /* Sources */,
+				D357F1C03F038632166D8FFCA243E0BF /* Frameworks */,
+				32AB84AB4A57EF487C6544C7D84ACDE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3937F3A2574E393C22525BD11436ED73 /* PBXTargetDependency */,
+				060ED60DECA6DED7FE747A1D83E7040E /* PBXTargetDependency */,
+			);
+			name = "Pods-Game";
+			productName = "Pods-Game";
+			productReference = 027C5CF90DCFAA46630D67C5BCB89221 /* Pods_Game.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8269DD46FA894A98D0B9A82C45823DF /* iMessageTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD78BAFC0D0C6E3FCB50421FCAF63D3 /* Build configuration list for PBXNativeTarget "iMessageTools" */;
+			buildPhases = (
+				7619760575C20D26FA13E7CA35C0BD11 /* Sources */,
+				DB462790200D7D5B38EF4A0313C2B198 /* Frameworks */,
+				C6207497058FDDF3BE5FB8FEBA6B42B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F252BF413B6C061091165D581A19D3 /* PBXTargetDependency */,
+			);
+			name = iMessageTools;
+			productName = iMessageTools;
+			productReference = A1D5B91FCFCD27506CA5A35A78DFEAEF /* iMessageTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB11F2703C74351C426E71F575DE6E4D /* SwiftTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68A2101E11E782653533EBF363F675 /* Build configuration list for PBXNativeTarget "SwiftTools" */;
+			buildPhases = (
+				350EA01CA13A8443E7231D6E3F316FCA /* Sources */,
+				CF0DD382381E59D1CA7673CE5F319929 /* Frameworks */,
+				14F7E94518CD4BBA11B15EC877BA1008 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -391,62 +449,6 @@
 			name = SwiftTools;
 			productName = SwiftTools;
 			productReference = 7C254F5661987258412680C87CC0BBDF /* SwiftTools.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2D40F54953B144E70E0350F552B9C55E /* Pods-GameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B877402198851192C325FEACDF36830 /* Build configuration list for PBXNativeTarget "Pods-GameTests" */;
-			buildPhases = (
-				E8B2A5F4E03AAE71B6C6C463FF7FA9A8 /* Sources */,
-				BD69AF0D3E735D1B7677815FB8A125F4 /* Frameworks */,
-				36A8D56EC889784FF75330A80154668C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				235BB5C97CFEDD85C91BAECDB60AEA52 /* PBXTargetDependency */,
-				EA9DF73F182644118461D204DBB61F89 /* PBXTargetDependency */,
-			);
-			name = "Pods-GameTests";
-			productName = "Pods-GameTests";
-			productReference = A86C6FCB55F9C71C4988BC188861A933 /* Pods_GameTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		78F7223874FF6C00BC55BE36B8896470 /* Pods-Game */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E28DABB2A4CF5712A131F851CC1E415F /* Build configuration list for PBXNativeTarget "Pods-Game" */;
-			buildPhases = (
-				1E72BBF00AA34E4F46C624AA740C2E92 /* Sources */,
-				489AA71FA814F450EBE206336E1C3FF5 /* Frameworks */,
-				A45313E6D7F71FBF0E2102C1A50C7457 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DA37224CD7E44F89474F72662238142 /* PBXTargetDependency */,
-				D5326993FAB5C010F24FD750EEE2B971 /* PBXTargetDependency */,
-			);
-			name = "Pods-Game";
-			productName = "Pods-Game";
-			productReference = 027C5CF90DCFAA46630D67C5BCB89221 /* Pods_Game.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		95A18ED73ACC4F6EFE0BD41EC4539D3F /* iMessageTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8E7983B2E652B39CEAB14BF500A41BBB /* Build configuration list for PBXNativeTarget "iMessageTools" */;
-			buildPhases = (
-				E8268AEEE38E084DA2F9091C754C7AA2 /* Sources */,
-				0F653ED6061B8D94EC8F61AFD0364522 /* Frameworks */,
-				CB48F7F4F1741E49281EA1EFD56719D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12D126D6FBE3F0A9E5904251BE05C145 /* PBXTargetDependency */,
-			);
-			name = iMessageTools;
-			productName = iMessageTools;
-			productReference = A1D5B91FCFCD27506CA5A35A78DFEAEF /* iMessageTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -470,97 +472,97 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95A18ED73ACC4F6EFE0BD41EC4539D3F /* iMessageTools */,
-				78F7223874FF6C00BC55BE36B8896470 /* Pods-Game */,
-				2D40F54953B144E70E0350F552B9C55E /* Pods-GameTests */,
-				0A35EF93FFEDFD9F9C50D4758E8589C8 /* SwiftTools */,
+				E8269DD46FA894A98D0B9A82C45823DF /* iMessageTools */,
+				BA46C87214C39908B2E9E145850197F6 /* Pods-Game */,
+				0B0D20663242C205D515EBC1D10CA477 /* Pods-GameTests */,
+				FB11F2703C74351C426E71F575DE6E4D /* SwiftTools */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E72BBF00AA34E4F46C624AA740C2E92 /* Sources */ = {
+		350EA01CA13A8443E7231D6E3F316FCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF53257F23A1090AD6C27A776C461E91 /* Pods-Game-dummy.m in Sources */,
+				C76C564941ADE3AFA1C08794F78B7414 /* CloudKit-Extensions.swift in Sources */,
+				063803EBD599B306C94A275E3A28896F /* CoreData-Extensions.swift in Sources */,
+				FD347F66193C62A6A6C16BAEBE1919CA /* Extensions.swift in Sources */,
+				109DE10A36EAA455CDCF3C5951B96C5C /* Info.plist in Sources */,
+				DB19C7E1932C45E2B3478ADC23E497D2 /* LocationHandler.swift in Sources */,
+				ADCCFA91E30791A4633FEEF9B6085FF8 /* Process.swift in Sources */,
+				2BB1949B503417D8A0C69626F32D89CC /* Section.swift in Sources */,
+				720C154FB166FC41A02507A24F501E79 /* Structs.swift in Sources */,
+				2255787283EE3F2ED0A5D4453B82C174 /* SwiftTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FA6DEC4C53B0305521628FE32E248A3 /* Sources */ = {
+		7619760575C20D26FA13E7CA35C0BD11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				614DD35D71243774D9A945C13FC80B1A /* CloudKit-Extensions.swift in Sources */,
-				2FBAA65EA7BF842A24CC3EA0F224D179 /* CoreData-Extensions.swift in Sources */,
-				F4D3F8D5EEEDD7128F4C9CD0BA394306 /* Extensions.swift in Sources */,
-				8841B589279BE4EC909361823CB7F655 /* Info.plist in Sources */,
-				3755CF9B0BD81C4D660133F5965BE70E /* LocationHandler.swift in Sources */,
-				C90EF735EAF3AE1D5B42FB9FA4659BAB /* Process.swift in Sources */,
-				4CD4053B5449B487B947908321C8DA22 /* Section.swift in Sources */,
-				0D888993D978846D493D0452466D5B35 /* Structs.swift in Sources */,
-				6AFDB1246C255632FB981793D69C8EB3 /* SwiftTools-dummy.m in Sources */,
+				A05C49D08E8167235D2457EFE2C2A1D9 /* iMessage.swift in Sources */,
+				EAD35206731D1537334927D9B72A9578 /* iMessageTools-dummy.m in Sources */,
+				43F57172F1A486DDA1F0847643F6310F /* Info.plist in Sources */,
+				2C76F817F9B9F4B66D54283C875891B3 /* Interpreter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8268AEEE38E084DA2F9091C754C7AA2 /* Sources */ = {
+		8D3E45F405DF4906A8B89FDB1E1FC1E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE54A05CC4E436E543629DBFDF65D7C3 /* iMessage.swift in Sources */,
-				2F9019466AE8C19529685D0B3ED2640C /* iMessageTools-dummy.m in Sources */,
-				B391C2BB5D1412A2AFDFCE8113C200E9 /* Info.plist in Sources */,
-				1A7B6F1F1A168BBB000C8193498CAD58 /* Interpreter.swift in Sources */,
+				BAABF52E94F3104418EBF992233402CE /* Pods-Game-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8B2A5F4E03AAE71B6C6C463FF7FA9A8 /* Sources */ = {
+		F9890C504B88350C88F3BE637366BC9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D8B61A934E1CAD08EF8497A87A693A /* Pods-GameTests-dummy.m in Sources */,
+				C43E23F8F0FAC08D4BEB18DC9E662AAB /* Pods-GameTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		12D126D6FBE3F0A9E5904251BE05C145 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftTools;
-			target = 0A35EF93FFEDFD9F9C50D4758E8589C8 /* SwiftTools */;
-			targetProxy = E375C1B296173D8C25EE8A0C6A2F1C0B /* PBXContainerItemProxy */;
-		};
-		235BB5C97CFEDD85C91BAECDB60AEA52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftTools;
-			target = 0A35EF93FFEDFD9F9C50D4758E8589C8 /* SwiftTools */;
-			targetProxy = 2BE8BEDF7FAC34CC16B423A796544E68 /* PBXContainerItemProxy */;
-		};
-		3DA37224CD7E44F89474F72662238142 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftTools;
-			target = 0A35EF93FFEDFD9F9C50D4758E8589C8 /* SwiftTools */;
-			targetProxy = 295F25D390516BE0F9653033539740B0 /* PBXContainerItemProxy */;
-		};
-		D5326993FAB5C010F24FD750EEE2B971 /* PBXTargetDependency */ = {
+		060ED60DECA6DED7FE747A1D83E7040E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iMessageTools;
-			target = 95A18ED73ACC4F6EFE0BD41EC4539D3F /* iMessageTools */;
-			targetProxy = C2066DCFFA7E9BBC0648EAEB6D0095DE /* PBXContainerItemProxy */;
+			target = E8269DD46FA894A98D0B9A82C45823DF /* iMessageTools */;
+			targetProxy = 716E3D4CE4AF2A13A84984074EA1897A /* PBXContainerItemProxy */;
 		};
-		EA9DF73F182644118461D204DBB61F89 /* PBXTargetDependency */ = {
+		26289921DF10208A567D7FE7703930BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftTools;
+			target = FB11F2703C74351C426E71F575DE6E4D /* SwiftTools */;
+			targetProxy = 44B2B45FFC6632B7F187FE0B0B9AAE71 /* PBXContainerItemProxy */;
+		};
+		3937F3A2574E393C22525BD11436ED73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftTools;
+			target = FB11F2703C74351C426E71F575DE6E4D /* SwiftTools */;
+			targetProxy = 1DD3F1366DA7BA9C6B65E16C946E716A /* PBXContainerItemProxy */;
+		};
+		4A62A0A1BCB2283AF216A255917E28C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iMessageTools;
-			target = 95A18ED73ACC4F6EFE0BD41EC4539D3F /* iMessageTools */;
-			targetProxy = A682E8457D9A322A964574E31783B593 /* PBXContainerItemProxy */;
+			target = E8269DD46FA894A98D0B9A82C45823DF /* iMessageTools */;
+			targetProxy = C220264AC1E41566FAD9BBD5FD241118 /* PBXContainerItemProxy */;
+		};
+		52F252BF413B6C061091165D581A19D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftTools;
+			target = FB11F2703C74351C426E71F575DE6E4D /* SwiftTools */;
+			targetProxy = BB4901182BF8720FCABE205BBDB915FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		087968C16DEF84CF74FDF88FF1ABA1FE /* Release */ = {
+		50C1F840CF3D4801B65457E72ECA916A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9148813D06BEBE2086F05A20E07C05 /* SwiftTools.xcconfig */;
+			baseConfigurationReference = 988096871E7B7F9946FA116ACAC0F08C /* iMessageTools.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -573,14 +575,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftTools/SwiftTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftTools/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/iMessageTools/iMessageTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iMessageTools/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftTools/SwiftTools.modulemap";
+				MODULEMAP_FILE = "Target Support Files/iMessageTools/iMessageTools.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftTools;
+				PRODUCT_NAME = iMessageTools;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -590,7 +592,7 @@
 			};
 			name = Release;
 		};
-		34EC5D977DB480214938532337C029BB /* Debug */ = {
+		551F425FCF0EC1CB48E417437258CD7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D56A7EE9743309B44057E7C6BB9D9325 /* Pods-GameTests.debug.xcconfig */;
 			buildSettings = {
@@ -626,75 +628,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4B29A90FD45048F0FE01D286D70F0BD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C69B090CB380A76CE3D150887096791 /* iMessageTools.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/iMessageTools/iMessageTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iMessageTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iMessageTools/iMessageTools.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = iMessageTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		50E4C80B7B2268C061FE32F6C987366E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B51E573ECA9A59D9F57BAB46615CEC92 /* Pods-Game.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Game/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Game/Pods-Game.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Game;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -740,6 +673,177 @@
 			};
 			name = Debug;
 		};
+		7335E6063E906B64019590602973BE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51E573ECA9A59D9F57BAB46615CEC92 /* Pods-Game.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Game/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Game/Pods-Game.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Game;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BB604CD3D972B2EBE14828D9DE5A545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988096871E7B7F9946FA116ACAC0F08C /* iMessageTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iMessageTools/iMessageTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iMessageTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iMessageTools/iMessageTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iMessageTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A64CAD400650C1548968398B553DDBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9148813D06BEBE2086F05A20E07C05 /* SwiftTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTools/SwiftTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftTools/SwiftTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACC8A71E22B8E379E7680305AE1DB8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68384DEA52D2BF645F5F1AF89D5C1D0 /* Pods-Game.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Game/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Game/Pods-Game.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Game;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B09A0504A46401CA0E77748FF258E10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9148813D06BEBE2086F05A20E07C05 /* SwiftTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTools/SwiftTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftTools/SwiftTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -780,77 +884,7 @@
 			};
 			name = Release;
 		};
-		B85E145C24A12F4CDBB97B147A7E6643 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F68384DEA52D2BF645F5F1AF89D5C1D0 /* Pods-Game.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Game/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Game/Pods-Game.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Game;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CCDD9925A74FCBBBE5D5325723271741 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9148813D06BEBE2086F05A20E07C05 /* SwiftTools.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftTools/SwiftTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftTools/SwiftTools.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D67B103F4DD62766D2AC4ACE71441B61 /* Release */ = {
+		CA8D3EBF756FEE3A802807CC6F1CA0D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C881D42E0D4167FF92C8791B6BBD196 /* Pods-GameTests.release.xcconfig */;
 			buildSettings = {
@@ -886,38 +920,6 @@
 			};
 			name = Release;
 		};
-		F35DCA957FAE399FAC24CD77855AE377 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C69B090CB380A76CE3D150887096791 /* iMessageTools.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/iMessageTools/iMessageTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iMessageTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iMessageTools/iMessageTools.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = iMessageTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -930,38 +932,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B877402198851192C325FEACDF36830 /* Build configuration list for PBXNativeTarget "Pods-GameTests" */ = {
+		321FC2B365210C0CC5BE04A74463E30A /* Build configuration list for PBXNativeTarget "Pods-GameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34EC5D977DB480214938532337C029BB /* Debug */,
-				D67B103F4DD62766D2AC4ACE71441B61 /* Release */,
+				551F425FCF0EC1CB48E417437258CD7C /* Debug */,
+				CA8D3EBF756FEE3A802807CC6F1CA0D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		613304C2D72F15806550C5AD078BE013 /* Build configuration list for PBXNativeTarget "SwiftTools" */ = {
+		78C3175B8D0CC173D89206BC0CCE1BDE /* Build configuration list for PBXNativeTarget "Pods-Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCDD9925A74FCBBBE5D5325723271741 /* Debug */,
-				087968C16DEF84CF74FDF88FF1ABA1FE /* Release */,
+				ACC8A71E22B8E379E7680305AE1DB8FA /* Debug */,
+				7335E6063E906B64019590602973BE86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E7983B2E652B39CEAB14BF500A41BBB /* Build configuration list for PBXNativeTarget "iMessageTools" */ = {
+		BBD78BAFC0D0C6E3FCB50421FCAF63D3 /* Build configuration list for PBXNativeTarget "iMessageTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B29A90FD45048F0FE01D286D70F0BD3 /* Debug */,
-				F35DCA957FAE399FAC24CD77855AE377 /* Release */,
+				7BB604CD3D972B2EBE14828D9DE5A545 /* Debug */,
+				50C1F840CF3D4801B65457E72ECA916A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E28DABB2A4CF5712A131F851CC1E415F /* Build configuration list for PBXNativeTarget "Pods-Game" */ = {
+		DE68A2101E11E782653533EBF363F675 /* Build configuration list for PBXNativeTarget "SwiftTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B85E145C24A12F4CDBB97B147A7E6643 /* Debug */,
-				50E4C80B7B2268C061FE32F6C987366E /* Release */,
+				B09A0504A46401CA0E77748FF258E10F /* Debug */,
+				A64CAD400650C1548968398B553DDBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

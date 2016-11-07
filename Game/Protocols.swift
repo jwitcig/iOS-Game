@@ -16,10 +16,14 @@ public protocol GameTyped {
 public protocol GameScene: SessionTyped {
     var game: Game! { get set }
     
-    init(initial: Session.InitialData?, previousSession: Session?, delegate: GameCycleDelegate)
+    init(initial: Session.InitialData?, previousSession: Session?, delegate: GameCycleDelegate, viewAttacher: ViewAttachable)
 }
 
 public protocol GameCycleDelegate {
     func started(game: Game)
     func finished<S>(session: S) where S: SessionType & StringDictionaryRepresentable
+}
+
+public protocol ViewAttachable {
+    func display(view: UIView)
 }
