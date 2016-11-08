@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.module_name = 'Game'
 
   s.dependency 'SwiftTools'
+  s.dependency 'iOS-Game'
 end
