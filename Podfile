@@ -9,11 +9,15 @@ target 'Game' do
   use_frameworks!
 
   # Pods for Game
-
+  # pod 'SwiftTools', :path => "~/Documents/projects/SwiftTools"
   # pod 'iMessageTools', :path => "~/Documents/projects/iMessageTools"
 
+<<<<<<< 726221f65426998ffc5e65374fb5288b9b8003f6
   pod 'iMessageTools', :git => "https://github.com/jwitcig/iMessageTools"
+=======
+>>>>>>> Cleaned up.
   pod 'SwiftTools', :git => "https://github.com/jwitcig/SwiftTools"
+  pod 'iMessageTools', :git => "https://github.com/jwitcig/iMessageTools"
 
   post_install do |installer|
       installer.pods_project.targets.each do |target|

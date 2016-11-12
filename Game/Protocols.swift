@@ -6,8 +6,10 @@
 //  Copyright © 2016 Jonah Witcig. All rights reserved.
 //
 
-import Foundation
 import Messages
+import SpriteKit
+
+import SwiftTools
 
 public protocol GameTyped {
     associatedtype GameType: Game
@@ -19,11 +21,11 @@ public protocol GameScene: SessionTyped {
     init(initial: Session.InitialData?, previousSession: Session?, delegate: GameCycleDelegate, viewAttacher: ViewAttachable)
 }
 
+public protocol SingleScene {
+    associatedtype SceneType: SKScene
+}
+
 public protocol GameCycleDelegate {
     func started(game: Game)
     func finished<S>(session: S) where S: SessionType & StringDictionaryRepresentable
-}
-
-public protocol ViewAttachable {
-    func display(view: UIView)
 }

@@ -6,8 +6,6 @@
 //  Copyright © 2016 Jonah Witcig. All rights reserved.
 //
 
-import Foundation
-
 import SpriteKit
 import SwiftTools
 
@@ -21,8 +19,4 @@ public protocol Game: class {
     func start()
     
     func finish()
-}
-
-public protocol SingleScene {
-    associatedtype SceneType: SKScene
 }
