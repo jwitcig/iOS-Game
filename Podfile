@@ -12,10 +12,6 @@ target 'Game' do
   # pod 'SwiftTools', :path => "~/Documents/projects/SwiftTools"
   # pod 'iMessageTools', :path => "~/Documents/projects/iMessageTools"
 
-<<<<<<< 726221f65426998ffc5e65374fb5288b9b8003f6
-  pod 'iMessageTools', :git => "https://github.com/jwitcig/iMessageTools"
-=======
->>>>>>> Cleaned up.
   pod 'SwiftTools', :git => "https://github.com/jwitcig/SwiftTools"
   pod 'iMessageTools', :git => "https://github.com/jwitcig/iMessageTools"
 
