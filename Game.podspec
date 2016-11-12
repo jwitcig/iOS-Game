@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Game"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Tools for Swift Game development."
   s.homepage         = "https://github.com/jwitcig/iOS-Game"
   s.license          = 'Code is MIT.'

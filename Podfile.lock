@@ -1,27 +1,30 @@
 PODS:
-  - iMessageTools (1.0):
+  - iMessageTools (1.0.2):
     - SwiftTools
-  - SwiftTools (1.1.10)
+  - SwiftTools (1.1.13)
 
 DEPENDENCIES:
-  - iMessageTools (from `~/Documents/projects/iMessageTools`)
+  - iMessageTools (from `https://github.com/jwitcig/iMessageTools`)
   - SwiftTools (from `https://github.com/jwitcig/SwiftTools`)
 
 EXTERNAL SOURCES:
   iMessageTools:
-    :path: "~/Documents/projects/iMessageTools"
+    :git: https://github.com/jwitcig/iMessageTools
   SwiftTools:
     :git: https://github.com/jwitcig/SwiftTools
 
 CHECKOUT OPTIONS:
+  iMessageTools:
+    :commit: d93f950f6061dbef56ee1189c4e4f6df7fb6e4bb
+    :git: https://github.com/jwitcig/iMessageTools
   SwiftTools:
-    :commit: b36f1576f9733244dc27bb5f9c5b7793ad8c9fcb
+    :commit: bd51e95ec58c141634bb5427fc0b83155efc62e6
     :git: https://github.com/jwitcig/SwiftTools
 
 SPEC CHECKSUMS:
-  iMessageTools: 1ce60ab61f777f5ed831f52605d28b6507bc9e0f
-  SwiftTools: de3df762bfd6a9fd1137594479f4a076a9c5c8f3
+  iMessageTools: f64f38e3554d94863715a376891ae772237e6692
+  SwiftTools: f5c247ae11e9c92322bd062feddebe13adf77539
 
-PODFILE CHECKSUM: 5d173615003ee9a09fb2268f4a35d53c00ed9d48
+PODFILE CHECKSUM: dbdcbbd246667f6388956b6e7869eb1eb8448e05
 
 COCOAPODS: 1.1.1

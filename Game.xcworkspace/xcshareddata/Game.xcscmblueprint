@@ -5,11 +5,13 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "4182E699B896459DE97CA7637FEAEAF78E9F46CA" : 9223372036854775807,
+    "E79EBB68975B687CF1A65CE23B3545DB4655623D" : 9223372036854775807,
     "69DEEC8DAEC705382FFEDAD1BADA89EF8B816767" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9C59730C-F03F-4F60-97AA-50BAA75EF6BC",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "4182E699B896459DE97CA7637FEAEAF78E9F46CA" : "iMessageTools\/",
+    "E79EBB68975B687CF1A65CE23B3545DB4655623D" : "SwiftTools\/",
     "69DEEC8DAEC705382FFEDAD1BADA89EF8B816767" : "iOS-Game\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Game",
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jwitcig\/iOS-Game.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69DEEC8DAEC705382FFEDAD1BADA89EF8B816767"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jwitcig\/SwiftTools.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E79EBB68975B687CF1A65CE23B3545DB4655623D"
     }
   ]
 }
