@@ -1,21 +1,16 @@
 PODS:
-  - SwiftTools (1.1.14)
+  - iMessageTools (1.0.4):
+    - JWSwiftTools
+  - JWSwiftTools (1.1.14)
 
 DEPENDENCIES:
-  - SwiftTools (from `https://github.com/jwitcig/SwiftTools`)
-
-EXTERNAL SOURCES:
-  SwiftTools:
-    :git: https://github.com/jwitcig/SwiftTools
-
-CHECKOUT OPTIONS:
-  SwiftTools:
-    :commit: 11a72c406f6872ecd45cfde622fdec80a9b8f6b1
-    :git: https://github.com/jwitcig/SwiftTools
+  - iMessageTools
+  - JWSwiftTools
 
 SPEC CHECKSUMS:
-  SwiftTools: 4de240f38e2fe29ae25ce544cca6dc62072fbc19
+  iMessageTools: f180b9f986835371d3f1d82b287ab5c9222e3de7
+  JWSwiftTools: c07152e274af4fbb834b350fc54ab52369a41f80
 
-PODFILE CHECKSUM: 63e2ddade36c77efcb3ad16af5f9512aa09cd5a0
+PODFILE CHECKSUM: 7a3b5332eb32c24407bb5b4501dea09c7aa327c9
 
 COCOAPODS: 1.1.1

@@ -6,22 +6,23 @@
 //  Copyright © 2016 Jonah Witcig. All rights reserved.
 //
 
-import Foundation
 import Messages
+import SpriteKit
 
-import SwiftTools
+import JWSwiftTools
 
 public protocol GameTyped {
     associatedtype GameType: Game
 }
 
-public protocol GameScene {
+public protocol GameScene: SessionTyped {
     var game: Game! { get set }
+    
+    init(initial: Session.InitialData?, previousSession: Session?, delegate: GameCycleDelegate, viewAttacher: ViewAttachable)
 }
 
-@available(iOS 10.0, *)
-public protocol MessageSessioned {
-    var messageSession: MSSession { get }
+public protocol SingleScene {
+    associatedtype SceneType: SKScene
 }
 
 public protocol GameCycleDelegate {

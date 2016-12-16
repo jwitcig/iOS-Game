@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JWSwiftTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Game.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftTools.xcscheme</key>
+		<key>iMessageTools.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>47AED2900679FF17FA6A39C3EBD4B443</key>
+		<key>05640B4DEDFC0D32C2340704C04AB84E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B746F413325513F70AE9ED55286B0FD</key>
+		<key>87C7682E5A5CE083AF84A36542E45482</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAF64EFB8A4A4272018DD1F16FDB4404</key>
+		<key>92CACC74FFEA12F425D27FB5FA88ECD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F40F6FC4A43EAA22ACFBFE998E5F8817</key>
 		<dict>
 			<key>primary</key>
 			<true/>

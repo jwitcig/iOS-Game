@@ -6,7 +6,7 @@
 //  Copyright © 2016 Jonah Witcig. All rights reserved.
 //
 
-import Foundation
+import JWSwiftTools
 
 public enum GameAction: String {
     case newGame = "New Game"
@@ -22,8 +22,7 @@ public enum Team {
     }
 }
 
-@available(iOS 10.0, *)
-public enum GameBegin<T: Game> {
+public enum GameBegin<T: Game, Session: SessionType> {
     case new(gameType: T.Type)
-    case continued(session: iMSGGameSession<T>)
+    case continued(session: Session)
 }
