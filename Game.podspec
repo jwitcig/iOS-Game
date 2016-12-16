@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.module_name = 'Game'
 
-  s.dependency 'SwiftTools', '1.1.10'
+  s.dependency 'SwiftTools'
 end

@@ -9,6 +9,8 @@
 import Foundation
 import Messages
 
+import SwiftTools
+
 public protocol GameTyped {
     associatedtype GameType: Game
 }
@@ -20,4 +22,9 @@ public protocol GameScene {
 @available(iOS 10.0, *)
 public protocol MessageSessioned {
     var messageSession: MSSession { get }
+}
+
+public protocol GameCycleDelegate {
+    func started(game: Game)
+    func finished<S>(session: S) where S: SessionType & StringDictionaryRepresentable
 }
