@@ -18,7 +18,7 @@ public enum Team {
         case you, them, tie
     }
     public enum Multi {
-        case you, them(id: String)
+        case you, them(id: String), tie(ids: [String])
     }
 }
 
